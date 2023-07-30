@@ -2,7 +2,7 @@ home:
   other: Home
 
 archive:
-  other: Archive
+  other: Posts
 
 tags:
   other: Tags
@@ -41,10 +41,10 @@ postsNewer:
 postsOlder:
   other: Older posts
 
-poweredBy:
-  other: >-
-    Powered by <a href='http://www.gohugo.io/'>Hugo</a> Theme By <a
-    href='https://github.com/nodejh/hugo-theme-mini'>nodejh</a>
+# poweredBy:
+#   other: >-
+#     Powered by <a href='http://www.gohugo.io/'>Hugo</a> Theme By <a
+#     href='https://github.com/nodejh/hugo-theme-mini'>nodejh</a>
 
 publishDateShort:
   other: '{{ .PublishDate.Format "Jan 2" }}'
