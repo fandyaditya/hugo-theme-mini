@@ -31,9 +31,9 @@ publishDate:
 publishDateFull:
   other: '{{ .PublishDate.Format "Jan 2, 2006" }}'
 
-wordCount:
-  one: "{{ .WordCount }} word"
-  other: "{{ .WordCount }} words"
+# wordCount:
+#   one: "{{ .WordCount }} word"
+#   other: "{{ .WordCount }} words"
 
 postsNewer:
   other: Newer posts
